@@ -42,7 +42,7 @@ float power ( float x, int y )
         p = p * x ;
     }
 
-    // If original power was negative, invert the result ( 1 / p )
+    // If original power was negative, convert the result  1 / p
     if ( y < 0 )
     {
         return ( 1.0 / p ) ;
